@@ -1,0 +1,24 @@
+one:
+  user: sean
+  task: running_1
+  completion: 10
+  attempts: 1
+
+two:
+  user: sean
+  task: climbing_1
+  completion: 20 
+  attempts: 2
+
+three:
+  user: sean
+  task: fencing_1
+  completion: 30
+  attempts: 3
+
+four:
+  user: sean
+  task: swimming_1
+  completion: 40
+  attempts: 8
+

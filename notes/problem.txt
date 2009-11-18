@@ -1,0 +1,9 @@
+ Question #1
+  You have an application in which there are multiple tasks grouped in
+  groups of 4. A user can perform a task multiple times and each time
+  their proficiency in that particular task goes up. When a user reaches
+  100% proficiency in all the tasks in any given group, that user gains
+  access to the second tier of tasks for that group, and then the third,
+  and so on. Create the necessary models to track this progress; the
+  user should be able to see all the tasks currently available to them
+  and only be able to complete the tasks that are available.
