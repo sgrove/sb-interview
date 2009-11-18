@@ -3,3 +3,10 @@ You have an application in which there are multiple tasks grouped in groups of f
 
 Report
 The models are sufficient to track the progress of the user, but it's only pleasant to interact with some logic to tie it together, so I've put it in to make sure it's sufficient.
+
+Question #2:
+ Create a Ruby class named "DistinctArray". A DistinctArray is very similar to an Array except for two differences:  1) it does not contain duplicate elements  2) it has a method named "to_multiset" which accepts one argument. The to_multiset method accepts an argument n. The return value should be an array of many distinct n-length arrays. Each n-length array should contain any number of copies of elements from the parent DistinctArray object.
+ Example:  distinct_array = DistinctArray.new  3.times {|i| distinct_array.push(i) }  distinct_array.to_multiset(2) # => [[0,0], [1,2], [1,1], [0,2], [0,1], [2,2]]
+
+Report
+The source file is in notes/question_2_distinct_array.rb, and mimics the example given above.
